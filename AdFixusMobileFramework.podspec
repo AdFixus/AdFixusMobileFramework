@@ -20,8 +20,8 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   spec.vendored_frameworks = ["Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework"]
   spec.platform = :ios
-  spec.ios.deployment_target = '10.0'
+  spec.ios.deployment_target = '14.0'
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64 armv7', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' } 
   
-  spec.dependency 'Google-Mobile-Ads-SDK' #, '~> 0.0.1'
+  spec.dependency 'Google-Mobile-Ads-SDK' #, '9.1.0'
 end
