@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.static_framework 		= true 
   spec.summary          		= 'AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.'
   spec.user_target_xcconfig 	= { 'OTHER_LDFLAGS' => '-ObjC' }
-  spec.vendored_frameworks = ["Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework"]
+  spec.vendored_frameworks = ["Frameworks/AdFixusMobileFramework.xcframework/AdFixusMobileFramework.xcframework"]
   spec.version          		= '1.0.0'
   spec.weak_frameworks 			= ''
 end
