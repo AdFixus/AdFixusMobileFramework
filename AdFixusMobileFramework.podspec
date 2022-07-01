@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 	It is a wrapper around Google Mobile Ads SDK.
                        DESC
   spec.preserve_paths 			= 'LICENSE','README.txt'
-  spec.source           		= { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/bin/AdFixusMobileFramework/1.0.0/AdFixusMobileFramework.xcframework.tar.gz' } #, :tag => spec.version.to_s }
+  spec.source           		= { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework.xcframework.tar.gz' } #, :tag => spec.version.to_s }
   spec.static_framework 		= true 
   spec.summary          		= 'AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.'
   spec.user_target_xcconfig 	= { 'OTHER_LDFLAGS' => '-ObjC' }
