@@ -7,16 +7,16 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.authors					= { 'AdFixus Pty Ltd' => 'sales@adfixus.com' }
+  spec.authors				= { 'AdFixus Pty Ltd' => 'sales@adfixus.com' }
   spec.cocoapods_version		= '>= 1.9.0'
   spec.dependency 'Google-Mobile-Ads-SDK', '~>9.1.0'
-  spec.frameworks 				= ''
+  spec.frameworks 			= ''
   spec.homepage         		= 'https://www.adfixus.com'
-  spec.libraries 				= "z", "sqlite3"
+  spec.libraries 			= "z", "sqlite3"
   spec.license          		= { :type => 'Proprietary', :file => 'LICENSE' }
   spec.name             		= 'AdFixusMobileFramework'
-  spec.platform 				= :ios
-  spec.ios.deployment_target 	= '10.0'
+  spec.platform 			= :ios
+  spec.ios.deployment_target 		= '10.0'
   spec.pod_target_xcconfig 		= { 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64 armv7', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' }
   spec.description      		= <<-DESC
     The AdFixus Mobile SDK is is the latest generation in mobile advertising featuring responsive ad formats. 
