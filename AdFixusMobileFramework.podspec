@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.description      		= <<-DESC
     The AdFixus Mobile SDK is is the latest generation in mobile advertising featuring responsive ad formats. It is a wrapper around Google Mobile Ads SDK.
                        DESC
-  #spec.preserve_paths 			= 'LICENSE','README.txt'
+  spec.preserve_paths 			= ['LICENSE','README.txt']
   spec.source           		= { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz' } 
   spec.static_framework 		= true 
   spec.summary          		= 'AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.'
