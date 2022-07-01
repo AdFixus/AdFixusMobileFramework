@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   spec.authors				= { 'AdFixus Pty Ltd' => 'sales@adfixus.com' }
   spec.cocoapods_version		= '>= 1.9.0'
-  #spec.dependency 'Google-Mobile-Ads-SDK', '~>9.1.0'
+  spec.dependency 'Google-Mobile-Ads-SDK', '~>9.1.0'
   #spec.frameworks 			= ''
   spec.homepage         		= 'https://www.adfixus.com'
   #spec.libraries 			= "z", "sqlite3"
