@@ -9,19 +9,18 @@
 Pod::Spec.new do |spec|
   spec.name             = 'AdFixusMobileFramework'
   spec.version          = '1.0.0'
-  spec.summary          = 'AdFixus Mobile Framework. Mobile Ads, fully responsive.'
+  spec.summary          = 'AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.'
   spec.description      = <<-DESC
-    AdFixus Mobile Framework will revolutionize your mobile in-app advertising.
+    The AdFixus Mobile SDK is is the latest generation in mobile advertising featuring responsive ad formats. It is a wrapper around Google Mobile Ads SDK.
                        DESC
-  spec.homepage         = 'https://adfixus.com'
-  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author           = { 'wayneschwebel' => 'wayne.schwebel@adfixus.com' }
+  spec.homepage         = 'https://www.adfixus.com'
+  spec.license          = { :type => 'Proprietary', :file => 'LICENSE' }
+  spec.author           = { 'AdFixus Pty Ltd' => 'sales@adfixus.com' }
   spec.source           		= { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz' } 
   spec.static_framework = true
   spec.vendored_frameworks = ["Frameworks/AdFixusMobileFramework-Current/AdFixusMobileFramework.xcframework"]
   spec.platform = :ios
   spec.ios.deployment_target = '10.0'
-  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64 armv7', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' } 
-  
+  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64 armv7', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' }
   spec.dependency 'Google-Mobile-Ads-SDK' #, '~>9.1.0'
 end
