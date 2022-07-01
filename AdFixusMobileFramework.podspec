@@ -29,5 +29,5 @@ Pod::Spec.new do |spec|
   #spec.user_target_xcconfig 	= { 'OTHER_LDFLAGS' => '-ObjC' }
   spec.vendored_frameworks = ["Frameworks/AdFixusMobileFramework-Current/AdFixusMobileFramework.xcframework"]
   spec.version          		= '1.0.0'
-  spec.weak_frameworks 			= ''
+  #spec.weak_frameworks 			= ''
 end
