@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Google-Mobile-Ads-SDK', '~>9.1.0'
   spec.frameworks 			= ''
   spec.homepage         		= 'https://www.adfixus.com'
-  spec.libraries 			= "z", "sqlite3"
+  #spec.libraries 			= "z", "sqlite3"
   spec.license          		= { :type => 'Proprietary', :file => 'LICENSE' }
   spec.name             		= 'AdFixusMobileFramework'
   spec.platform 			= :ios
@@ -23,10 +23,10 @@ Pod::Spec.new do |spec|
 	It is a wrapper around Google Mobile Ads SDK.
                        DESC
   spec.preserve_paths 			= 'LICENSE','README.txt'
-  spec.source           		= { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz' } #, :tag => spec.version.to_s }
+  spec.source           		= { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz' } 
   spec.static_framework 		= true 
   spec.summary          		= 'AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.'
-  spec.user_target_xcconfig 	= { 'OTHER_LDFLAGS' => '-ObjC' }
+  #spec.user_target_xcconfig 	= { 'OTHER_LDFLAGS' => '-ObjC' }
   spec.vendored_frameworks = ["Frameworks/AdFixusMobileFramework-Current/AdFixusMobileFramework.xcframework"]
   spec.version          		= '1.0.0'
   spec.weak_frameworks 			= ''
